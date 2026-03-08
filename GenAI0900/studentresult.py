@@ -1,0 +1,15 @@
+student_name = input('enter the student name: ')
+class_section = input(' enter the section of student class: ')
+class_no = int(input(' enter the class: '))
+sub1 = int(input('enter the sub marks: '))
+sub2 = int(input('enter the sub marks: '))
+sub3 = int(input('enter the sub marks: '))
+sub4 = int(input('enter the sub marks: '))
+sub5 = int(input('enter the sub marks: '))
+add = sub1+sub2+sub3+sub4+sub5
+percentage = (add/500)*100
+print('/n---the result code---')
+print(f"Name : {student_name}")
+print(f"classsec: {class_section} - clasno: {class_no}")
+print(f"total: {add}/500")
+print(f"percent:{percentage}")
